@@ -1,0 +1,4 @@
+spring EL-spring支持在xml和注解中使用表达式
+spring开发中经常调用各种资源：包含普通文件、网址、配置文件、系统环境变量等，使用spring的表达式语言实现资源的注入
+主要在@Value的 参数中使用表达式
+需要再dependency中添加Commons-io
